@@ -7,4 +7,7 @@ seaborn
 scipy
 spacy
 scikit-learn
-
+pymongo
+pyspark
+tensorflow
+wordcloud

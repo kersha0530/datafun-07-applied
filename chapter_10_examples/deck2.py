@@ -1,7 +1,7 @@
 # deck.py
 """Deck class represents a deck of Cards."""
 import random 
-from carddataclass import Card
+from chapter_10_examples.carddataclass import Card
 
 class DeckOfCards:
     NUMBER_OF_CARDS = 52  # constant number of Cards
