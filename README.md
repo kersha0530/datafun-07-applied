@@ -2,7 +2,7 @@
 CC7.1: Start a New Project (w/Local Project Virtual Env)
 
 # 📊 NYC January High Temperature Prediction  
-## Author: Kersa  Broussard
+## Author: Kersha  Broussard
 ## Github Repo Link: https://github.com/kersha0530/datafun-07-applied
 ## **🔍 Overview**  
 This project analyzes historical **NYC January high temperatures** from **1895 to 2018** and uses **linear regression** to predict future temperatures.  
@@ -48,21 +48,21 @@ pip install -r requirements.txt
 
 Before running the scripts, set up a virtual environment:
 
-#### Create virtual environment
+#### * Create virtual environment
 python -m venv venv
 
-#### Activate virtual environment (Windows)
+#### * Activate virtual environment (Windows)
 venv\Scripts\activate
 
-#### Activate virtual environment (Mac/Linux)
+#### * Activate virtual environment (Mac/Linux)
 
 source venv/bin/activate
 
-### Ensure your .gitignore includes:
+### * Ensure your .gitignore includes:
 
-.vscode/
-.venv/
-.ipynb_checkpoints/
+- .vscode/
+- .venv/
+- .ipynb_checkpoints/
 
 ### 2️. Install Required Dependencies
 
@@ -81,17 +81,17 @@ jupyter notebook
 
 ### 5️. Verify Your Git Workflow
 
-git status  # Check untracked changes
-git add .   # Add all files
-git commit -m "Initial project setup with virtual environment and requirements"
-git push origin main  # Push changes to GitHub
+- git status  # Check untracked changes
+- git add .   # Add all files
+- git commit -m "Initial project setup with virtual environment and requirements"
+- git push origin main  # Push changes to GitHub
 
 ### 6️. Double-Check GitHub
 
 Open repository and verify all files are uploaded.
 
 
-📈 ## Project Breakdown
+# Project Breakdown
 
 ### 1️. Data Preparation
 * Load NYC temperature dataset (ave_hi_nyc_jan_1895-2018.csv)
