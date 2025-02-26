@@ -1,11 +1,48 @@
 # datafun-07-applied
 CC7.1: Start a New Project (w/Local Project Virtual Env)
 
+# 📊 NYC January High Temperature Prediction  
+## Author: Kersa  Broussard
+## Github Repo Link: https://github.com/kersha0530/datafun-07-applied
+## **🔍 Overview**  
+This project analyzes historical **NYC January high temperatures** from **1895 to 2018** and uses **linear regression** to predict future temperatures.  
 
-The purpose of this module is to develop a guided project. As the module progresses, additional topics will be covered, such as machine learning. Jupyter will be the tool used throughout the project.
+Two approaches were used:  
+1️. **SciPy’s `linregress()`** for quick regression analysis  
+2️. **Scikit-Learn’s `LinearRegression()`** with train/test splits for improved accuracy  
 
+## **📂 Project Structure**
+
+datafun-07-applied/ 
+│── chapter_10_examples/ # Raw dataset files
+│── chapter_15_examples/ # ML-focused case studies 
+│── notebooks/ # Jupyter Notebooks │ 
+├── kersha_ml.ipynb # Main project notebook 
+│── README.md # Project documentation 
+│── requirements.txt # Project dependencies 
+│── .gitignore # Ignore unnecessary files
 
  ## Project Setup
+ 
+---
+
+## **📦 Dependencies**
+Ensure you have the following Python packages installed:
+
+```txt
+numpy
+pandas
+matplotlib
+seaborn
+scipy
+scikit-learn
+
+OR install all required packages using:
+
+```bash
+
+pip install -r requirements.txt
+```
 
 ### 1️. Create and Activate Virtual Environment
 
@@ -52,3 +89,25 @@ git push origin main  # Push changes to GitHub
 ### 6️. Double-Check GitHub
 
 Open repository and verify all files are uploaded.
+
+
+📈 ## Project Breakdown
+
+### 1️. Data Preparation
+* Load NYC temperature dataset (ave_hi_nyc_jan_1895-2018.csv)
+* Clean and preprocess data (rename columns, convert date formats)
+### 2️. Exploratory Data Analysis
+* Describe dataset statistics
+* Visualize trends with Seaborn
+### 3️. Linear Regression (SciPy)
+* Use linregress() to compute the best-fit line
+* Predict 2024 temperature manually using y = mx + b
+### 4️. Machine Learning (Scikit-Learn)
+* Split dataset into training & testing
+* Train LinearRegression() model
+* Evaluate model performance
+* Predict 2024 temperature
+### 5️. Results & Visualizations
+* Scatter plots with regression lines
+* Insights comparing SciPy & Scikit-Learn results
+
